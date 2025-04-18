@@ -1,9 +1,5 @@
-# Jumlah baris yang diinginkan
-n = 5
+# Menampilkan Bintang Ganjil
+for i in range(1, 6, 2):    # Mulai dari 1, hingga 7, loncat 2
+    print(' ' * ((7 - i) // 2) + '*' * i)
 
-# Perulangan untuk setiap baris
-for i in range(n):
-    # Menghitung jumlah bintang yang akan ditampilkan
-    # Hanya menampilkan bintang pada baris ganjil
-    if i % 2 == 0:  # Baris ganjil dalam indeks (0, 2, 4, ...)
-        print('*' * (2 * i + 1))  # Menampilkan bintang sesuai dengan baris
+print("akhir perulangan bintang/n")
